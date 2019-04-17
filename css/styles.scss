@@ -88,3 +88,26 @@ body
   position: absolute;
   bottom: 0px;
 }
+
+.modal
+{
+  .modal-header
+  {
+    h4
+    {
+      color: floralwhite;
+    }
+    background-color: $background-dark;
+
+    .close
+    {
+      color: floralwhite;
+    }
+  }
+
+  .modal-body
+  {
+    background-color: $background-pale;
+  }
+
+}
